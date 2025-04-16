@@ -1,0 +1,289 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7fafc;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2d3748;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.header .logo {
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.header .nav a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.header .nav a:hover {
+    color: #ed64a6;
+}
+
+.header .login-btn {
+    background-color: #ed64a6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.header .login-btn:hover {
+    background-color: #d53f8c;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: 24rem;
+    object-fit: cover;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.hero p {
+    margin-top: 1rem;
+}
+
+.tutors {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+}
+
+.tutor-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.tutor-card img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 9999px;
+    margin-right: 1.5rem;
+}
+
+.tutor-card h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.tutor-card p {
+    color: #718096;
+}
+
+.tutor-card .book-btn {
+    margin-top: 1rem;
+    background-color: #ed64a6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.tutor-card .book-btn:hover {
+    background-color: #d53f8c;
+}
+
+.cta {
+    position: relative;
+}
+
+.cta img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.cta .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.cta h2 {
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+
+.cta .highlight {
+    color: #ed64a6;
+}
+
+.cta .sign-up-btn {
+    margin-top: 1rem;
+    background-color: #ed64a6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.cta .sign-up-btn:hover {
+    background-color: #d53f8c;
+}
+
+.footer {
+    background-color: #2d3748;
+    color: white;
+    padding: 3rem 1.5rem;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+.footer .column h3 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer .column p,
+.footer .column a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .column a:hover {
+    color: #ed64a6;
+}
+
+.footer .social-icons a {
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.footer .social-icons a:hover {
+    color: #ed64a6;
+}
+
+.footer .copyright {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+    .footer .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.navbar {
+    background-color: #000; /* Tailwind's bg-black */
+    color: #fff; /* Tailwind's text-white */
+    padding: 1rem 1.5rem; /* Tailwind's py-4 px-6 */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 2.35rem;
+    width: 9rem;
+    margin-right: 45.5rem;
+    margin-left: -14rem;
+  }
+  
+  .logo-text h1 {
+    font-size: 1.125rem; /* Tailwind's text-lg */
+    font-weight: bold; /* Tailwind's font-bold */
+    margin: 0;
+  }
+  
+  .logo-text p {
+    font-size: 0.875rem; /* Tailwind's text-sm */
+    margin: 0;
+  }
+  
+  .nav-links {
+    display: none;
+  }
+  
+  .nav-links a {
+    color: #d1d5db; /* Tailwind's text-gray-300 */
+    margin-left: 1.5rem; /* Tailwind's space-x-6 */
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    color: #fff; /* Tailwind's hover:text-white */
+  }
+  
+  .login-button button {
+    background-color: #ec4899; /* Tailwind's bg-pink-500 */
+    color: #fff; /* Tailwind's text-white */
+    padding: 0.5rem 1rem; /* Tailwind's px-4 py-2 */
+    border: none;
+    border-radius: 9999px; /* Tailwind's rounded-full */
+    cursor: pointer;
+  }
+  
+  .login-button button:hover {
+    background-color: #db2777; /* Slightly darker pink for hover effect */
+  }
+ .navbar #navbar_own a{
+    color: #d1d5db; /* Tailwind's text-gray-300 */
+    margin-left: 1.5rem; /* Tailwind's space-x-6 */
+    text-decoration: none;
+    
+ }
